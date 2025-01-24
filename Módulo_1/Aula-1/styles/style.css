@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FAFCFE;
+    color: black;
+}
+
+
+
+header{
+    background-color: #4caf50;
+    color: #f9f9f9;
+    font-size: 24px;    
+    display: flex; 
+    justify-content: space-between; /* Space-between:Coloca espaçamentos iguais  */ 
+    padding: 37px 60px;
+}
+
+.logo{
+    font-weight: bold;
+}
+
+
+.content{
+    text-align: center;
+    padding: 30px;
+}
+
+.content h1{ 
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.content p{
+    font-size: 18px;
+    margin-bottom: 21px;
+}
+
+.btn1{
+    background-color: #4caf50;
+    font-size: 18px;
+    color: white;
+    padding: 12px 25px;
+    margin-bottom: 62px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    gap: 103px;
+}
+
+
+.btn2{
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; 
+    width: 300px;
+    height: 155px;
+    margin-bottom: 50px;
+}
+
+.btn2 h2{
+    font-size: 24px;
+    margin-bottom: 11px;
+    padding: 13px 15 px;
+}
+
+.btn2 p{
+    font-size: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.fale{
+    text-align: center;
+}
+
+.fale h2{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+form{
+    max-width: 400px;
+    display: block;
+    text-align: left;
+    margin: 0 auto
+}
+
+form label{font-size: 16px;}
+
+form input{
+    width: 100%;
+    border-color: #cccccc;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 16px;
+    padding: 13px 12px;
+    margin-bottom: 11px;
+    background-color: white;
+}
+
+
+form button{
+    background-color: #4caf50;
+    color: white;
+    height: 45px;
+    width: 77px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+    margin-bottom: 73px;
+    margin-top: 23px;
+    display: block;
+}
+
+
+
+footer{
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 39px 314px;
+}
+
